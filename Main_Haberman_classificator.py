@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     # Algorithm
     euclidian_classifier = Euclidian_classifier()
-    classified_test_set = euclidian_classifier.euclidian_algorithm(training_set, copy.deepcopy(test_set))
+    classified_test_set = euclidian_classifier.euclidian_algorithm(copy.deepcopy(training_set), copy.deepcopy(test_set))
 
     print(classified_test_set)
 

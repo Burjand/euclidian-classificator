@@ -2,10 +2,21 @@ import math
 
 class Math_tools():
 
-    def compute_euclidian_distance(x1, y1, x2, y2):
 
-        return math.sqrt( ((x2-x1)**2) + ((y2-y1)**2) )
-    
+
+    def compute_euclidian_distance(point_1: list, point_2: list):
+
+        dimensions = len(point_1)
+
+        components = []
+
+        for i in range(dimensions):
+
+            components.append((point_2[i] - point_1[i])**2)
+
+        return math.sqrt(sum(components))
+
+
 
     def compute_vector_centroid(array: list):
 
