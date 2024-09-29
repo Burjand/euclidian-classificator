@@ -19,5 +19,3 @@ class Performance_measure():
         accuracy = successes / set_length
 
         return accuracy
-    
-    ################################################    AQUÍ ESTÁ EL PROBLEMA    #################################################
