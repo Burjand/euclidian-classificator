@@ -28,7 +28,7 @@ if __name__ == "__main__":
     print(classified_test_set)
 
     # Performance measure
-    performance_measure = Performance_measure()    
+    performance_measure = Performance_measure()
     accuracy = performance_measure.measure_accuracy(test_set, classified_test_set)
 
     print(accuracy)

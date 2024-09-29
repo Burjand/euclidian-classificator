@@ -2,8 +2,6 @@ import math
 
 class Math_tools():
 
-
-
     def compute_euclidian_distance(point_1: list, point_2: list):
 
         dimensions = len(point_1)
@@ -15,8 +13,7 @@ class Math_tools():
             components.append((point_2[i] - point_1[i])**2)
 
         return math.sqrt(sum(components))
-
-
+    
 
     def compute_vector_centroid(array: list):
 

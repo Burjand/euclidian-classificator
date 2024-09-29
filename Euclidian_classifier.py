@@ -4,7 +4,7 @@ Class for the euclidian classifier
 Parameter description:
 training_set: The part of the dataset designed for training of the algorithm
 test_set: The part of the dataset designed for testing of the algorithm
-label_position: boolean that indicates if the label is at the beginning of the datasset (False) or at the end (True), by default it is True
+label_position: boolean that indicates if the label is at the beginning of the dataset (False) or at the end (True), by default it is True
 """
 
 from Math_tools import Math_tools

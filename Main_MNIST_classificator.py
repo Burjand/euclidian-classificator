@@ -31,6 +31,6 @@ if __name__ == "__main__":
 
     # Performance measure
     performance_measure = Performance_measure()    
-    accuracy = performance_measure.measure_accuracy(test_set, classified_test_set)
+    accuracy = performance_measure.measure_accuracy(test_set, classified_test_set, False)
 
     print(accuracy)
